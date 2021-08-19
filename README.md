@@ -1,5 +1,8 @@
 # Vue3.0 learning...
 
+-   api 介绍
+-   原理介绍（原理不是源码！！！）
+
 ## 关于 vue3.0 总结问题如下
 
 ### `vue3` 比 `vue2` 有什么优势
@@ -14,7 +17,7 @@
 ### 描述 vue3 `生命周期`
 
 -   LifeCycles.vue 文件
--   options api 生命周期
+-   Options AP 生命周期
     -   1. beforeDestory 改为 beforeUnmount
     -   2. destory 改为 unmounted
     -   3. 其他沿用 vue2 的生命周期
@@ -22,13 +25,17 @@
 
 ### 如何看待 `Composition API` 和 `Options API`
 
+-   Composition API(组合式 api) 1.在官方文档不属于基础用法属于高阶技巧 2.为了解决复杂业务逻辑而设计的 3.类似于 Hooks 在 React 中的地位
+-   Composition API 带来了什么 1.针对大型复杂项目来说 更好的代码组织 2.逻辑复用(后续会有代码演示) 3.类型推导(vue2.0 的 this 语法不利于正常 js 语法的类型推导)
+-   如何选择：1.不建议混用,写法、代码组织复用方式，会引起混乱 2.简单项目采用维护成本低的 Options API 3.
+
 ### 如何理解 `ref` `toRef` `toRefs`
 
 ### vue3 升级了哪些重要的功能
 
 ### `Composition API` 如何实现代码逻辑复用
 
-### vue3 如何实现 `响应式`
+### vue3 如何实现 `响应式`以及 `模板编译`
 
 ### `watch` 和 `watchEffect` 的区别是什么
 

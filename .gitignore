@@ -1,7 +1,7 @@
-node_modules/
-.vscode/
-.idea
+node_modules
 .DS_Store
-!packages/uni-app-plus/dist
+dist
+dist-ssr
+*.local
 package-lock.json
-yarn.slock
+yarn.lock
