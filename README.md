@@ -13,10 +13,12 @@
 
 ### 描述 vue3 `生命周期`
 
+-   LifeCycles.vue 文件
 -   options api 生命周期
-    -- beforeDestory 改为 beforeUnmount
-    -- destory 改为 unmounted
-    -- 其他沿用 vue2 的生命周期
+    -   1. beforeDestory 改为 beforeUnmount
+    -   2. destory 改为 unmounted
+    -   3. 其他沿用 vue2 的生命周期
+-   Composition API 生命周期
 
 ### 如何看待 `Composition API` 和 `Options API`
 
