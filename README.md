@@ -13,6 +13,11 @@
 
 ### 描述 vue3`生命周期`
 
+-   options api 生命周期
+    -- beforeDestory 改为 beforeUnmount
+    -- destory 改为 unmounted
+    -- 其他沿用 vue2 的生命周期
+
 ### 如何看待`Composition API` 和`Options API`
 
 ### 如何理解`ref` `toRef` `toRefs`
