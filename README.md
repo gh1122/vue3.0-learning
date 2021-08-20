@@ -39,6 +39,8 @@
 
 ### 如何理解 `ref` `toRef` `toRefs`
 
+-   ref 生成值类型的响应式数据 可用于模板和 reactive 通过.value 修改值
+
 ### vue3 升级了哪些重要的功能
 
 ### `Composition API` 如何实现代码逻辑复用
