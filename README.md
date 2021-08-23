@@ -40,7 +40,7 @@
 ### 如何理解 `ref` `toRef` `toRefs`
 
 -   ref 生成值类型的响应式数据 可用于模板和 reactive 通过.value 修改值 获取模板内的 dom 元素
--   toRef 针对一个响应式对象(reactive)的 prop
+-   toRef 针对一个响应式对象(reactive)的 prop 创建一个 ref 具有响应式 两者保持引用关系
 
 ### vue3 升级了哪些重要的功能
 
